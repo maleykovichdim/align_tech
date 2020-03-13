@@ -18,35 +18,7 @@
 using namespace std;
 
 
-
-class A
-{
-	int a = 0;
-
-public:
-	virtual ~A() = default;
-};
-
-class B
-{
-	int b = 0;
-
-public:
-	virtual ~B() = default;
-};
-
-class C : public A, public B
-{
-	int c = 0;
-
-public:
-	virtual ~C() = default;
-};
-
-
-
-
-/*
+/*  it is from file now
 	vector<int> sudc{
 	2, 4, 5, 8, 9, 3, 7, 1, 6,
 		8, 1, 3, 5, 7, 6, 9, 2, 4,
@@ -151,7 +123,7 @@ class F{};
 
 /////////////////////////////////////////////////
 
-	//questions
+	//questions !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #if 0
 	C c;
 
@@ -176,6 +148,35 @@ class F{};
 	std::cout <<" dynamic_cast<C*>(&aa) " << dynamic_cast<C*>(&aa) << std::endl;
 
 	std::cout << "dynamic_cast<C*>(ff) "<< dynamic_cast<C*>(ff) << std::endl;
+
+
+
+	class A
+	{
+		int a = 0;
+
+	public:
+		virtual ~A() = default;
+	};
+
+	class B
+	{
+		int b = 0;
+
+	public:
+		virtual ~B() = default;
+	};
+
+	class C : public A, public B
+	{
+		int c = 0;
+
+	public:
+		virtual ~C() = default;
+	};
+
+
+
 #endif
 
 
