@@ -127,7 +127,7 @@ class F{};
 	int main(int argc, char *argv[])
 	{
 
-#if 0
+
 
 		if (argc != 2) {
 			cout << "enter file name" << endl;
@@ -148,9 +148,11 @@ class F{};
 	else
 		cout  << "Incorrect" << endl;
 
-#endif
+
 /////////////////////////////////////////////////
 
+	//questions
+#if 0
 	C c;
 
 	C * cc = &c;
@@ -174,7 +176,7 @@ class F{};
 	std::cout <<" dynamic_cast<C*>(&aa) " << dynamic_cast<C*>(&aa) << std::endl;
 
 	std::cout << "dynamic_cast<C*>(ff) "<< dynamic_cast<C*>(ff) << std::endl;
-
+#endif
 
 
 /////////////////////////////////////////////////
